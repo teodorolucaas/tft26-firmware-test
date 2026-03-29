@@ -110,10 +110,10 @@ int main()
 
             //Histerese
             if(!currentState && value > TH_HIGH){
-                currentState = true; //rising
+                currentState = true; //Rising
             }
             else if (currentState && value < TH_LOW){
-                currentState = false; //falling
+                currentState = false; //Falling
             }
 
             //When the start of the period is detected (rising edge),

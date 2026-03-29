@@ -171,7 +171,7 @@ bool SoftI2C::writeByte(uint8_t value) {
 }
 
 //Function responsible for scanning the bus, printing every address, 
-//and returning the first address found different from 0x48 (temperature sensor)
+//and returning the first address found different from 0x48 (Temperature sensor)
 bool SoftI2C::scanHum(uint8_t& value){
 
     bool found=false;
